@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        searchresult
+        <title>searchresult</title>
+    </head>
+<body>
+    <script>
+    var resultMessage = "You searched for the content:";
+    {
+    // document.addEventListener("DOMContentLoaded", function())
+    //     const urlParams = new URLSearchParams(window.location.search);
+    //         const searchQuery = urlParams.get('s');
+    //         const searchQueryElement = document.getElementById('searchresult');
+            
+    }
+
+    const quer = new URLSearchParams(window.location.search);
+    console.log(quer);
+    </script>
+</body>
+</html>
