@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tile>Welcome</tile>
+    </head>
+    <body>
+        <h1>Search </h1> 
+        <form id="login" onsubmit="loginValidation()"></form>
+    <form action="/search" method="get">
+        <input type="text" id="search" name="s" placeholder="Enter your search query..." required>
+        <input type="button" onclick="searchresult()" value="Search">
+    </form>
+    <script>
+        function searchresult()
+        {
+            var searchresult = document.getElementById("search").value;
+            window.location.href = "./searchresult.html"
+        }
+        
+    </script>
+       <body>
+</html>
